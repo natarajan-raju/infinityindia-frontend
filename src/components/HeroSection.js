@@ -79,7 +79,8 @@ class HeroSection extends HTMLElement {
     }
 
     async loadHeroImages(){
-      let offerImagesUrl = [];      
+      let offerImagesUrl = [];
+      try {      
       const { data } = await fetch(`${this.url}/api/hero-section?populate=*`)
                       .then((response) => response.json())
                       .then((data) => {return data})
@@ -89,8 +90,17 @@ class HeroSection extends HTMLElement {
           const url = `${this.url}` + attributes.url;          
           return url;  
       });
+    } catch(e){
+      console.log(e);
+    }
+      if(offerImagesUrl.length > 0){
+        this.loadCarousel(offerImagesUrl);
+      } else {
+        
+        this.innerHTML = this.template;
+        console.log(this.template);
+      }
       
-      this.loadCarousel(offerImagesUrl);
     }    
          
     
