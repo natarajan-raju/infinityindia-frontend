@@ -14,7 +14,7 @@ class HeroSection extends HTMLElement {
             
                   
         this.template = `
-        <div class="carousel-container w-full md:w-9/12 lg:relative overflow-hidden pb-10">
+        <div id="hero" class="carousel-container w-full md:w-9/12 lg:relative overflow-hidden pb-10">
           <div class="carousel-wrapper flex">
             <!-- Carousel items go here -->
                               
