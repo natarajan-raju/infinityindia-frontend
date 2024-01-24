@@ -45,7 +45,6 @@ class FeatureSection extends HTMLElement {
 
     connectedCallback(){
         this.innerHTML = this.template;
-        console.log(this.template);
     }
 }
 

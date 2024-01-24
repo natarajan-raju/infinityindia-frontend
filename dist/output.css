@@ -867,6 +867,10 @@ select {
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -927,6 +931,10 @@ select {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-11 {
   height: 2.75rem;
 }
@@ -953,6 +961,10 @@ select {
 
 .h-full {
   height: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-11 {
@@ -1123,6 +1135,12 @@ select {
   row-gap: 1.5rem;
 }
 
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-y-12 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1237,6 +1255,10 @@ select {
 
 .bg-none {
   background-image: none;
+}
+
+.fill-gray-900 {
+  fill: #111827;
 }
 
 .object-cover {
@@ -1399,6 +1421,11 @@ select {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1591,7 +1618,6 @@ body{
   position: relative;
   overflow: hidden;
   margin: auto;
-  border-radius: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -1640,6 +1666,71 @@ h1,h2,h3 {
 
 #contact-form{
   background: url('../public/images/stacked-waves-haikei.png') no-repeat center center/cover;
+}
+
+/* Scroll animation */
+
+.scroller {
+  /* width: 100%; */
+  max-width: 1024px;
+  text-shadow: none;
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: -moz-max-content;
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+.testimonial {
+  background-color: rgba(0,0,150,0.1);
+  padding: 3rem 1rem;
+  margin: 0 1rem;
+  box-shadow: 0px 0px 15px 0px blue;
+  border-radius: 10px;
 }
 
 @media (min-width: 640px) {
@@ -1815,6 +1906,11 @@ h1,h2,h3 {
     padding-bottom: 8rem;
   }
 
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1827,6 +1923,10 @@ h1,h2,h3 {
 
   .sm\:leading-6 {
     line-height: 1.5rem;
+  }
+
+  .sm\:leading-9 {
+    line-height: 2.25rem;
   }
 
   .sm\:ring-1 {
@@ -1847,6 +1947,12 @@ h1,h2,h3 {
 
   .md\:w-9\/12 {
     width: 75%;
+  }
+
+  .md\:scale-125 {
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
 
@@ -1886,6 +1992,10 @@ h1,h2,h3 {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:max-w-4xl {
+    max-width: 56rem;
   }
 
   .lg\:max-w-7xl {
@@ -1966,6 +2076,7 @@ h1,h2,h3 {
          column-gap: 2rem;
   }
 }
+
 
 
 
