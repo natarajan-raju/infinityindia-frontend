@@ -9,7 +9,7 @@ class NavBar extends HTMLElement {
             <div class="flex lg:flex-1">
                 <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Infinity India</span>
-                    <img class="h-8 w-auto border-solid border-2 rounded-full border-red-600" src="./public/BM_logo.jpg" alt="BM Wall">
+                    <img class="h-8 w-auto border-solid border-2 rounded-full border-red-600" src="./public/images/logo/logo.jpeg" alt="Infinity India">
                 </a>
                 </div>
                 <div class="flex lg:hidden"> 
@@ -164,7 +164,7 @@ class NavBar extends HTMLElement {
             <div class="lg:hidden" role="dialog" aria-modal="true">
             
                 <!-- Background backdrop, show/hide based on slide-over state. -->
-                <div class="fixed inset-0"></div>
+                
                 <div id="mobileMenu" class="fixed hidden inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
                     <a href="#" class="-m-1.5 p-1.5">

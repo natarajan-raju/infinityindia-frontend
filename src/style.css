@@ -177,6 +177,11 @@ h1,h2,h3 {
     border-radius: 10px;
   }
 
+  footer{
+    background: url('../public/images/layered-waves-haikei\(1\).png') no-repeat center center/cover;
+    
+  }
+
 
 
 
