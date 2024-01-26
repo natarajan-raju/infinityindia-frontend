@@ -14,12 +14,14 @@ class HeroSection extends HTMLElement {
             
                   
         this.template = `
-        <div id="hero" class="carousel-container w-full md:w-9/12 lg:relative overflow-hidden pb-10">
-          <div class="carousel-wrapper flex">
-            <!-- Carousel items go here -->
-                              
+        <section id="hero">
+          <div class="carousel-container w-full md:w-9/12 lg:relative overflow-hidden py-0 md:py-3">
+            <div class="carousel-wrapper flex">
+              <!-- Carousel items go here -->
+                                
+            </div>
           </div>
-        </div>
+        <section>
         `;
     }
 
