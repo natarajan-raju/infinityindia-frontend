@@ -16,12 +16,12 @@ body{
 }
 
 img {
-  height: 100%;
-  border-bottom: 4px solid rgb(150, 0, 0);
+  height: 100%;  
+  
 }
 
 footer,header{    
-  background: url('../public/images/layered-waves-haikei\(1\).png') no-repeat center center/cover;    
+  background: url('../public/images/nav.png') no-repeat center center/cover;    
 }
 
 footer img {
@@ -29,7 +29,10 @@ footer img {
 }
 
 header{
-  border-bottom: 3px solid rgb(150, 0, 0);
+  
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
 }
 
 
@@ -78,7 +81,9 @@ header{
     overflow: hidden;
     margin: auto;    
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
+     
+    
 }
 
 .carousel-wrapper {
@@ -86,13 +91,19 @@ header{
     transition: transform 0.5s ease-in-out;
     max-height: 85svh;
     
+    
+    
 }
 
 
 .carousel-item {
-    flex: 0 0 100%;   
+    flex: 0 0 100%;  
+    border-radius: 10px; 
+     
     
 }
+
+
 
 
 
@@ -108,7 +119,7 @@ header{
   }
 
   .carousel-btn:hover{
-    color: rgb(152, 152, 241)
+    color: rgb(157, 157, 255)
   }
 
   .prev-btn {
