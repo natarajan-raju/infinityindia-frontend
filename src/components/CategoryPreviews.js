@@ -17,7 +17,7 @@ class CategoryPreviews extends HTMLElement {
                   <img src="../public/images/wallpaper.jpg" alt="Wallpapers" class="h-full w-full object-cover object-center">
                 </div>
                 <h3 class="mt-6 text-sm text-gray-500">
-                  <a href="#">
+                  <a href="wallpapers.html">
                     <span class="absolute inset-0"></span>
                     Wallpapers
                   </a>
