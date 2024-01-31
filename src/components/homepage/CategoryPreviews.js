@@ -29,7 +29,7 @@ class CategoryPreviews extends HTMLElement {
                 <img src="../public/images/mural.jpg" alt="wallmurals" class="h-full w-full object-cover object-left">
                 </div>
                 <h3 class="mt-6 text-sm text-gray-500">
-                  <a href="#">
+                  <a href="3dmural_1.html">
                     <span class="absolute inset-0"></span>
                     Wall Murals
                   </a>
@@ -41,7 +41,7 @@ class CategoryPreviews extends HTMLElement {
                 <img src="../public/images/mosquitomesh.jpg" alt="mosquito mesh" class="h-full w-full object-cover object-center">
                 </div>
                 <h3 class="mt-6 text-sm text-gray-500">
-                  <a href="#">
+                  <a href="mosquitomesh.html">
                     <span class="absolute inset-0"></span>
                     Mosquito mesh slider doors
                   </a>

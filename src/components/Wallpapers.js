@@ -14,31 +14,31 @@ class Wallpapers extends HTMLElement{
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl lg:mx-0">
                     <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Wallpapers</h2>
-                    <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                    <p class="mt-6 text-lg leading-8 text-gray-300">Tired of Boring space? Transform your room into your Dream space with our premium wallpaper of your choice!</p>
                 </div>
                 <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-                        <a href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
+                        <a href="primo.html">Nature inspired <span aria-hidden="true">&rarr;</span></a>
+                        <a href="aventus.html">Elite collection <span aria-hidden="true">&rarr;</span></a>
+                        <a href="dune.html">Eco premium <span aria-hidden="true">&rarr;</span></a>
+                        <a href="wonderwalls_1.html">Kids collection <span aria-hidden="true">&rarr;</span></a>
                     </div>
                 <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
                     <div class="flex flex-col-reverse">
-                        <dt class="text-base leading-7 text-gray-300">Offices worldwide</dt>
-                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
+                        <dt class="text-base leading-7 text-gray-300">Cities covered</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">32</dd>
                     </div>
                     <div class="flex flex-col-reverse">
-                        <dt class="text-base leading-7 text-gray-300">Full-time colleagues</dt>
-                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
+                        <dt class="text-base leading-7 text-gray-300">Interior designs</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">10k+</dd>
                     </div>
                     <div class="flex flex-col-reverse">
-                        <dt class="text-base leading-7 text-gray-300">Hours per week</dt>
-                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
+                        <dt class="text-base leading-7 text-gray-300">Hours fastest installation</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">2</dd>
                     </div>
                     <div class="flex flex-col-reverse">
-                        <dt class="text-base leading-7 text-gray-300">Paid time off</dt>
-                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
+                        <dt class="text-base leading-7 text-gray-300">years durable</dt>
+                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">7</dd>
                     </div>
                 </dl>
                 </div>
@@ -90,7 +90,7 @@ class Wallpapers extends HTMLElement{
                 </div>
             </div>
         </div>
-        <div class="bg-gray-100">
+        <div id="kidsWallpaperSection">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
                     <h2 class="text-2xl font-bold text-gray-900">Kids Wallpapers Catalogue</h2>
@@ -98,27 +98,27 @@ class Wallpapers extends HTMLElement{
                         
                         <div class="group relative">
                             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="./public/images/catalogues/aventus/intro.png" alt="Aventus premium wallpaper" class="h-full w-full object-cover object-center">
+                                <img src="./public/images/catalogues/wonder_wall/intro.png" alt="Wonder wall kids wallpaper" class="h-full w-full object-cover object-center">
                             </div>
                             <h3 class="mt-6 text-sm text-gray-500">
-                                <a href="aventus.html">
+                                <a href="wonderwalls_1.html">
                                     <span class="absolute inset-0"></span>
-                                    Fabulous wallcovering for every room
+                                    Exclusive creative walls for your super star kiddos
                                 </a>
                             </h3>
-                            <p class="text-base font-semibold text-gray-900">Aventus</p>
+                            <p class="text-base font-semibold text-gray-900">Wonder Walls</p>
                         </div>
                     <div class="group relative">
                     <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                        <img src="./public/images/catalogues/dune/intro.png" alt="Dune premium wallpapers" class="h-full w-full object-cover object-center">
+                        <img src="./public/images/catalogues/little_love/intro.png" alt="Little love kids wallpapers" class="h-full w-full object-cover object-center">
                     </div>
                     <h3 class="mt-6 text-sm text-gray-500">
-                        <a href="dune.html">
+                        <a href="littlelove_1.html">
                         <span class="absolute inset-0"></span>
-                        Eco-premium silk wall covering
+                        Conjure up a fantasy world for Children
                         </a>
                     </h3>
-                    <p class="text-base font-semibold text-gray-900">Dune</p>
+                    <p class="text-base font-semibold text-gray-900">Little Love</p>
                     </div>
                 </div>
                 </div>

@@ -47,6 +47,21 @@ header{
     animation: beat infinite 1s;    
 }
 
+.whatsapp img {
+  display: none;
+}
+
+
+.whatsapp:hover {
+  i{
+    display: none;
+  }
+
+  img{
+    display: block;
+    width: 200px
+  }  
+}
 #spinner{
     margin: auto;
     height: 85vh;
@@ -142,7 +157,7 @@ h1,h2,h3 {
 }
 
 
-#feature-section{
+#feature-section,#kidsWallpaperSection{
     background: url('../public/images/blob-scene-haikei.png') no-repeat center center/cover;
 }
 
@@ -216,7 +231,7 @@ h1,h2,h3 {
     border-radius: 10px;
   }
 
-  @keyframes beat {
+@keyframes beat {
     0% {
       transform: none;
     }
@@ -227,7 +242,13 @@ h1,h2,h3 {
     100% {
       transform: none;
     }
-  }
+}
+
+.catalogue img {
+  border-bottom: 3px darkblue solid;
+}
+
+
 
 
 

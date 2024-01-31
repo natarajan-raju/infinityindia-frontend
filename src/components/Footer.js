@@ -9,12 +9,12 @@ class Footer extends HTMLElement {
                     <div class="mb-6 md:mb-0">
                         <a href="#" class="flex items-center">
                             <img src="./public/images/logo/logo.jpeg" class="h-8 me-3" alt="Infinity India" />
-                            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Infinity India</span>
+                            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Infinity India</span>
                         </a>
                     </div>
                     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
                                     <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
@@ -25,7 +25,7 @@ class Footer extends HTMLElement {
                             </ul>
                         </div>
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
                                     <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
