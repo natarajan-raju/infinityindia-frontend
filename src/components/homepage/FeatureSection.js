@@ -36,7 +36,7 @@ class FeatureSection extends HTMLElement {
                     </dl>
                 </div>
                 </div>
-                <img id="feature-image" src="../public/images/feature-image.jpg" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+                <img id="feature-image" src="./public/images/feature-image.jpg" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
             </div>
         </div>
       </div>
