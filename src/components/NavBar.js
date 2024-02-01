@@ -125,7 +125,7 @@ class NavBar extends HTMLElement {
                             <i class="fa-solid fa-warehouse fa-xl text-gray-900 group-hover:text-indigo-600"></i>
                         </div>
                         <div class="flex-auto">
-                            <a href="#" class="block font-semibold text-gray-900">
+                            <a href="https://bmwall.in" class="block font-semibold text-gray-900">
                             Interior & Exterior glass works
                             <span class="absolute inset-0"></span>
                             </a>
@@ -152,8 +152,9 @@ class NavBar extends HTMLElement {
                 </div>
 
                 <a href="#category" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Collections</a>
-                <a href="#" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Marketplace</a>
-                <a href="#" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Company</a>
+                <a href="commercials.html" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Pricing</a>
+                <a href="#contact-form" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Contact us</a>
+ 
                 </div>
                 <!--<div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a href="#" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -169,8 +170,8 @@ class NavBar extends HTMLElement {
                 <div id="mobileMenu" class="fixed hidden inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
                     <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">BM Wall</span>
-                    <img class="h-8 w-auto" src="../public/BM_logo.jpg" alt="BM Wall">
+                    <span class="sr-only">Infinity India</span>
+                    <img class="h-8 w-auto" src="./public/images/logo/logo.jpeg" alt="Infinity India">
                     </a>
                     <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
                     <span class="sr-only">Close menu</span>
@@ -225,18 +226,16 @@ class NavBar extends HTMLElement {
                         x-on:click.outside="close($refs.button)"
                         :id="$id('dropdown-button')"
                         style="display: none;" class="mt-2 space-y-2" id="disclosure-1">
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Analytics</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Engagement</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Security</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Integrations</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Automations</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Watch demo</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact sales</a>
+                            <a href="mosquitomesh.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Mosquito Mesh</a>
+                            <a href="wallpapers.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Interior Wallpapers</a>
+                            <a href="3dmural_1.html" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Murals</a>
+                            <a href="https://bmwall.in" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Interior & Exterior glassworks</a>
+                            
                         </div>
                         </div>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                        <a href="#category" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Collections</a>
+                        <a href="commercials.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Pricing</a>
+                        <a href="#contact-form" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact us</a>
                     </div>
                     <!--<div class="py-6">
                         <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>

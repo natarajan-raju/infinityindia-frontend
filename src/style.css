@@ -74,9 +74,15 @@ header{
 }
 
 
-#hero{
+#category{
   background: url('../public/images/hero-bg.png') no-repeat center center/cover;
 
+}
+
+#commercials{
+  background: url('../public/images/hero-bg.png') no-repeat center center/cover;
+
+  
 }
 
 #feature-image{
@@ -157,7 +163,7 @@ h1,h2,h3 {
 }
 
 
-#feature-section,#kidsWallpaperSection{
+#best-sellers,#kidsWallpaperSection{
     background: url('../public/images/blob-scene-haikei.png') no-repeat center center/cover;
 }
 
