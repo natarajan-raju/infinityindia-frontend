@@ -15,35 +15,35 @@ class Footer extends HTMLElement {
                     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
                             <h2 class="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
-                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <ul class="text-gray-400  font-medium">
                                 <li class="mb-4">
-                                    <a href="wallpapers.html" target="_blank" class="hover:underline">Catalogues</a>
+                                    <a href="wallpapers.html" target="_blank" class="hover:text-white">Catalogues</a>
                                 </li>
                                 <li>
-                                    <a href="commercials.html" target="_blank" class="hover:underline">Pricing</a>
+                                    <a href="commercials.html" target="_blank" class="hover:text-white">Pricing</a>
                                 </li>
 
                             </ul>
                         </div>
                         <div>
                             <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
-                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <ul class="text-gray-400  font-medium">
                                 <li class="mb-4">
-                                    <a href="https://www.facebook.com/profile.php?id=61554910542575&mibextid=ZbWKwL" target="_blank" class="hover:underline ">Facebook</a>
+                                    <a href="https://www.facebook.com/profile.php?id=61554910542575&mibextid=ZbWKwL" target="_blank" class="hover:text-white ">Facebook</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/infinityindia_biz" target="_blank" class="hover:underline">Instagram</a>
+                                    <a href="https://www.instagram.com/infinityindia_biz" target="_blank" class="hover:text-white">Instagram</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
-                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <ul class="text-gray-400  font-medium">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Privacy Policy</a>
+                                    <a href="#" class="hover:text-white">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                    <a href="#" class="hover:text-white">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>

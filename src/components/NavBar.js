@@ -151,9 +151,9 @@ class NavBar extends HTMLElement {
                     </div>
                 </div>
 
-                <a href="#category" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Collections</a>
+                <a href="index.html/#category" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Collections</a>
                 <a href="commercials.html" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Pricing</a>
-                <a href="#contact-form" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Contact us</a>
+                <a href="index.html/#contact-form" class="text-sm font-semibold leading-6 text-blue-100 hover:text-blue-400">Contact us</a>
  
                 </div>
                 <!--<div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -169,7 +169,7 @@ class NavBar extends HTMLElement {
                 
                 <div id="mobileMenu" class="fixed hidden inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
-                    <a href="#" class="-m-1.5 p-1.5">
+                    <a href="index.html" class="-m-1.5 p-1.5">
                     <span class="sr-only">Infinity India</span>
                     <img class="h-8 w-auto" src="./public/images/logo/logo.jpeg" alt="Infinity India">
                     </a>
@@ -233,7 +233,7 @@ class NavBar extends HTMLElement {
                             
                         </div>
                         </div>
-                        <a href="#category" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Collections</a>
+                        <a href="index.html/#category" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Collections</a>
                         <a href="commercials.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Pricing</a>
                         <a href="#contact-form" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact us</a>
                     </div>

@@ -20,8 +20,10 @@ img {
   
 }
 
+
 footer,header{    
-  background: url('../public/images/nav.png') no-repeat center center/cover;    
+  background-color: rgba(15, 35, 167, 0.95);    
+  
 }
 
 footer img {
